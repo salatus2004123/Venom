@@ -1,0 +1,300 @@
+:root {
+  font-size: 1em;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+
+  background-color: #14131a;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.venom {
+  max-width: 45.5em;
+  width: 40%;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header {
+  margin-bottom: 5em;
+  padding-top: 2.5em;
+  display: flex;
+  align-items: center;
+}
+
+.logo__link {
+  margin-right: 3.125em;
+  display: inline-block;
+}
+
+.nav__menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  z-index: 1;
+}
+
+.nav__menu--item {
+  margin-right: 1.875em;
+}
+
+.change-lang {
+  width: 60px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, .5);
+  background-color: inherit;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.change-lang:hover,
+.change-lang:focus {
+  color: rgba(255, 255, 255, .7);
+  border: 1px solid rgba(255, 255, 255, .7);
+}
+
+.change-lang--option {
+  color: rgba(255, 255, 255, .5);
+  background-color: #14131a;
+}
+
+.nav__menu--link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .5);
+}
+
+.nav__menu--link:hover,
+.nav__menu--link:focus {
+  color: rgba(255, 255, 255, .7);
+}
+
+.nav__menu--link:active {
+  color: rgba(255, 255, 255, .9);
+}
+
+.movie__date {
+  margin-bottom: 2%;
+  display: block;
+
+  font-size: 1.5rem;
+  line-height: 1.17;
+  color: rgba(255, 255, 255, .8);
+}
+
+.movie__logo {
+  width: 70%;
+}
+
+.movie__description {
+  margin-top: 3%;
+  max-width: 26.44em;
+
+  font-size: 1rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, .8);
+}
+
+.button__group {
+  margin-top: 5%;
+}
+
+.button {
+  padding: .938em 1.875em;
+
+  text-decoration: none;
+
+  border: none;
+  border-radius: .312em;
+  cursor: pointer;
+}
+
+.button__icon,
+.button__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button__text {
+  margin-left: .715em;
+
+  font-size: .875rem;
+  line-height: 1.14;
+}
+
+.button__primary {
+  color: #8d0019;
+
+  background-color: #fff;
+}
+
+.button__link {
+  color: #fff;
+}
+
+.bg {
+  background: url('../images/scale_1200.jpg') no-repeat 0 0 / cover;
+}
+
+.primary-bg {
+  background: url('../images/scale_1200.jpg') no-repeat 0 0 / cover;
+}
+
+
+
+.content {
+  display: flex;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.content__title {
+  margin-top: 0;
+  margin-bottom: .625em;
+
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.313;
+  color: rgba(255, 255, 255, .8);
+}
+
+.content__subtitle {
+  margin-top: 0;
+  margin-bottom: .94em;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, .8);
+}
+
+.content__text {
+  margin-bottom: 1.875em;
+  max-width: 26.44rem;
+
+  line-height: 1.4;
+  color: rgba(255, 255, 255, .8);
+}
+
+.list {
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.list__item {
+  line-height: 1.5;
+}
+
+.column-2 {
+  max-width: 21.875rem;
+
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 1.25rem;
+  -moz-column-gap: 1.25rem;
+  column-gap: 1.25rem;
+}
+
+.content__trailer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12.813em;
+  width: 22.813em;
+
+  background: url('../images/carnage-still-image-2.jpg') no-repeat center / contain;
+  border-radius: .32em;
+}
+
+.trailer .play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.813em;
+  width: 2.813em;
+
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.poster__wrapper {
+  display: flex;
+  align-items: start;
+}
+
+.poster {
+  margin-right: 1.875rem;
+  width: 22.625rem;
+
+  border-radius: .32rem;
+}
+
+.poster__wrapper .content__subtitle {
+  margin-bottom: .31rem;
+}
+
+.poster__wrapper .list {
+  margin: 0 0 1.25rem 0;
+}
+
+.actors img {
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+  margin-left: 33px;
+}
+.actors p {
+  font-size: 12px;
+}
+.actors {
+  display: flex;
+  width: 1440px;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: "Roboto";
+  src: url(/fonts/RobotoRegular.woff) format(woff);
+  src: url(/fonts/RobotoRegular.ttf) format(truetype);
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(/fonts/RobotoBold.woff) format(woff);
+  src: url(/fonts/RobotoBold.ttf) format(truetype);
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
